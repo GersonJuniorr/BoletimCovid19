@@ -1,0 +1,50 @@
+<body>
+  <div class="container">
+    <div class="row">
+      <h1 class="align principal-text">BOLETIM COVID-19</h1>
+      <div class="col">
+        <select class="form-control tamanho">
+          <option>Brasil</option>
+          <option>São Paulo</option>
+          <option>Bahia</option>
+          <option>Rio de Janeiro</option>
+          <option>Minas Gerais</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center space">
+    <div class="row space-bottom">
+      <div class="col-12 col-md-6">
+        <h3 class="principal-text teste">CASOS DE COVID CONFIRMADOS</h3>
+      </div>
+      <div class="col-12 col-md-6">
+        <h3 class="principal-text number">{{ casos.All.confirmed }}</h3>
+      </div>
+    </div>
+    <div class="row space-bottom">
+      <div class="col-12 col-md-6">
+        <h3 class="principal-text teste">TOTAL DE MORTES POR COVID</h3>
+      </div>
+      <div class="col-12 col-md-6">
+        <h3 class="principal-text number">{{ casos.All.deaths }}</h3>
+      </div>
+    </div>
+    <div class="row space-bottom">
+      <div class="col-12 col-md-6">
+        <h3 class="principal-text teste">TOTAL VACINADOS</h3>
+      </div>
+      <div class="col-12 col-md-6">
+        <h3 class="principal-text number"> {{ vacinas.All.people_vaccinated }} </h3>
+      </div>
+    </div>
+    <div class="row space-bottom">
+      <div class="col-12 col-md-6">
+        <h3 class="principal-text teste">lorem ipsum dolor sit</h3>
+      </div>
+      <div class="col-12 col-md-6">
+        <h3 class="principal-text number">000000</h3>
+      </div>
+    </div>
+  </div>
+</body>

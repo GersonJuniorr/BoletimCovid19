@@ -1,0 +1,57 @@
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0f4c81;
+}
+
+.align {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+center {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.space {
+  margin-top: 80px;
+}
+
+.principal-text {
+  color: #fff;
+}
+
+.teste{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 80px;
+  background-color: chocolate;
+}
+
+.number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 80px;
+  background-color: cornflowerblue;
+  font-size: 60px;
+}
+
+.tamanho{
+  display: flex;
+  margin: auto;
+  width: 200px;
+}
+
+.space-bottom {
+  margin-bottom: 25px;
+}
+
+
