@@ -1,4 +1,8 @@
 # CovidApi
+Projeto para mostrar o boletim de COVID-19 no Brasil.
+Feito com HTML, CSS, BOOTSTRAP, JAVASCRIPT, TYPESCRIPT com o framework ANGULAR
+
+LINK API: https://github.com/M-Media-Group/Covid-19-API/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
